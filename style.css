@@ -5,19 +5,19 @@ body {
 
 
 header{
-            background-color:#1E1E1E;
+            background-color:#08070B;
             color: #F5F5F5;
             text-align: center;
             margin: 0 auto;
             padding: 16px;
-            border: 2px solid #424242;
+            border: 2px solid #33283D;
         }
         main{
-            background-color:#1E1E1E;
+            background-color:#121016;
             color: #F5F5F5;
             margin: 0 auto;
             padding: 16px;
-            border: 2px solid #424242;
+            border: 2px solid #33283D;
 
             display: flex;
             flex-wrap: wrap;
@@ -41,13 +41,13 @@ header{
             justify-content: center;
         }
         h3{
-            color: #F5F5F5;
+            color: #AFA5B5;
         }
 
         h2{
-            color:#29B6F6;
+            color:#C77DFF;
         }
 
         h1{
-            color: #4FC3F7;
+            color: #7B2CBF;
         }
