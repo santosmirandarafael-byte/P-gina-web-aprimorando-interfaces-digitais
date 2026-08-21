@@ -20,13 +20,25 @@ header{
             border: 2px solid #424242;
 
             display: flex;
+            flex-wrap: wrap;
         }
 
         article {
 
             display: flex;
 
-            border 
+            border: 1px solid #33283D;
+
+            margin: 16px;
+            gap: 16px;
+            padding: 16px;
+
+            flex: 1 1 25%;
+
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
         }
         h3{
             color: #F5F5F5;
