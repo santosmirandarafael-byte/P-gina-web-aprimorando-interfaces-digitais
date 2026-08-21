@@ -1,3 +1,22 @@
+:root {
+    --Cor-primaria: #33283D;
+    --Cor-secundaria:#08070B;
+    --Cor-fundo:#08070B;
+    --Cor-texto:#7B2CBF;
+    --Cor-contraste:#F1EDF4;
+    --Cor-botão:#AFA5B5;
+}
+
+.Tema-claro {
+    --Cor-primaria: #D8CDE0;
+    --Cor-secundaria:#F8F5FA;
+    --Cor-fundo:#F8F5FA;
+    --Cor-texto:#7B2CBF;
+    --Cor-contraste:#211A24;
+    --Cor-botão:#6F6575;
+}
+
+
 body {
     max-width: 100vw;
 }
@@ -5,19 +24,17 @@ body {
 
 
 header{
-            background-color:#08070B;
-            color: #F5F5F5;
+            background-color: var();
+            color: var(--Cor-contraste);
             text-align: center;
             margin: 0 auto;
             padding: 16px;
-            border: 2px solid #33283D;
         }
         main{
-            background-color:#121016;
-            color: #F5F5F5;
+            background-color: var(--Cor-fundo);
+            color: var(--Cor-primaria);
             margin: 0 auto;
             padding: 16px;
-            border: 2px solid #33283D;
 
             display: flex;
             flex-wrap: wrap;
@@ -27,7 +44,7 @@ header{
 
             display: flex;
 
-            border: 1px solid #33283D;
+            border: 1px solid var(--Cor-primaria);
 
             margin: 16px;
             gap: 16px;
