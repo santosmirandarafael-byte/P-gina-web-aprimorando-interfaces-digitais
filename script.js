@@ -17,7 +17,7 @@ const botoes = document.querySelectorAll("button");
 
         })
 
-        const btntemaClaro = document.querySelector(",btn-Tema-Claro");
+        const btntemaClaro = document.querySelector(".btn-Tema-Claro");
         btntemaClaro.addEventListener("click", mudaTema);
 
         function mudaTema(){
