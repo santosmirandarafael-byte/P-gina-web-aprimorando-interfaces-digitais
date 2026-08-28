@@ -7,6 +7,10 @@
     --Cor-botão:#AFA5B5;
 }
 
+* {
+    transition: background-color 0.6s aese;
+}
+
 .Tema-claro {
     --Cor-primaria: #D8CDE0;
     --Cor-secundaria:#F8F5FA;
@@ -18,6 +22,10 @@
 
 .Tema-claro p {
     color: var(--Cor-contraste)
+}
+
+.Tema_Claro .btn-tema-Claro {
+    background-color: var(--Cor-secundaria);
 }
 
 
@@ -47,8 +55,7 @@ header{
         article {
 
             display: flex;
-
-            border: 1px solid var(--Cor-primaria);
+            box-shadow: 0 2px 6px  rgba( 0, 0, 0, 0.6);
 
             margin: 16px;
             gap: 16px;
@@ -73,7 +80,7 @@ header{
             color: #7B2CBF;
         }
 
-        .brn-tema-Claro {
+        .btn-tema-Claro {
             position: fixed;
             bottom: 16px;
             right: 16px;
