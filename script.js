@@ -16,3 +16,16 @@ const botoes = document.querySelectorAll("button");
             }
 
         })
+
+        const btntemaClaro = document.querySelector(",btn-Tema-Claro");
+        btntemaClaro.addEventListener("click", mudaTema);
+
+        function mudaTema(){
+            const corpoPagina = documente.body;
+            if(corpoPagina.ClassList.contains("Tema-Claro")) {
+            corpoPagina.ClassList.remove("Tema-claro");
+            } else {
+                corpopagina.ClassList.add("Tema-Claro");
+            }
+
+        }

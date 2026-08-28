@@ -72,3 +72,14 @@ header{
         h1{
             color: #7B2CBF;
         }
+
+        .brn-tema-Claro {
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+            font-size: 32px;
+            padding: 12px;
+            background-color: var(--Cor-primaria);
+            border-radius: 50%;
+
+        }
