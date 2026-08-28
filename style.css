@@ -11,7 +11,7 @@
     transition: background-color 0.6s aese;
 }
 
-.Tema-claro {
+.Tema-Claro {
     --Cor-primaria: #D8CDE0;
     --Cor-secundaria:#F8F5FA;
     --Cor-fundo:#F8F5FA;
@@ -20,7 +20,7 @@
     --Cor-botão:#6F6575;
 }
 
-.Tema-claro p {
+.Tema-Claro p {
     color: var(--Cor-contraste)
 }
 

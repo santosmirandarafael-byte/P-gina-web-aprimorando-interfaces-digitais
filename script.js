@@ -23,7 +23,7 @@ const botoes = document.querySelectorAll("button");
         function mudaTema(){
             const corpoPagina = documente.body;
             if(corpoPagina.ClassList.contains("Tema-Claro")) {
-            corpoPagina.ClassList.remove("Tema-claro");
+            corpoPagina.ClassList.remove("Tema-Claro");
             } else {
                 corpopagina.ClassList.add("Tema-Claro");
             }
